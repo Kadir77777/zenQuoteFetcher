@@ -16,7 +16,7 @@
 python main.py
 
 # Project Files
-main.py: Contains the logic to fetch and display the quote.
-requirements.txt: Lists required Python packages (requests).
-.gitignore : Ignores .env and Python cache folders.
-.env.sample: Empty file for future environment variables.
+- main.py: Contains the logic to fetch and display the quote.
+- requirements.txt: Lists required Python packages (requests).
+- .gitignore : Ignores .env and Python cache folders.
+- .env.sample: Empty file for future environment variables.

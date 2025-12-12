@@ -1,23 +1,22 @@
-the name of my project is zenQuoteFetcher.
-this is a small python project that gets a quote from the zenquotes API and print it to the screen.You're reading zenQuoteFetcher which is small Python script when you run it, you will get quote and author.
-the script is very simple: it sends a request to API, reads JSON response, and shows the quote and the author.
-you need to install  the package: pip install -r requirements.txt, also run the program using Python main.py.
-run the program: python main.py if everything works, you will see the quote and the author’s name.
 
-# Files in the Project
+# zenQuoteFetcher
 
-- **main.py**
-This is where all the logic is.
-It sends a request to the API and prints the quote 
+**zenQuoteFetcher** is a simple Python script that fetches a random quote from the ZenQuotes API and displays it along with the author.
 
-- **requirements.txt**
-Contains the Python package needed (requests).
+## How It Works
+- Sends a request to the ZenQuotes API.
+- Parses the JSON response.
+- Prints the quote and author to the terminal.
 
-- **.gitignore**
-Used to ignore .env files and Python cache folders.
+## Installation
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+# Run thhe program: 
+python main.py
 
-- **.env.sample**
-Empty file included because the professor required it.
-
-- **README.md**
-You're reading it explains what the project is and how to run it. is this correct 
+# Project Files
+main.py: Contains the logic to fetch and display the quote.
+requirements.txt: Lists required Python packages (requests).
+.gitignore : Ignores .env and Python cache folders.
+.env.sample: Empty file for future environment variables.

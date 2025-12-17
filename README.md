@@ -1,4 +1,3 @@
-
 # zenQuoteFetcher
 
 **zenQuoteFetcher** is a simple Python script that fetches a random quote from the ZenQuotes API, displays it in the terminal, and sends it to a Discord channel using a webhook.
@@ -18,9 +17,9 @@
 ## Run the Program
 ```bash
 python main.py
+```
 
-
-## Project Files
+## project files 
 
 - **main.py**  
   Contains the main logic. Fetches a random quote from the ZenQuotes API, prints it to the terminal, and sends it to a Discord webhook.
@@ -33,6 +32,4 @@ python main.py
 
 - **.env.sample**  
   Template file showing the required environment variable for the Discord webhook (no real values included).
-
-
 
